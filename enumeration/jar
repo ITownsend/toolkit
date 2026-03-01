@@ -1,0 +1,2 @@
+#extracts items from a .jar file 
+jar -xf mirth.crypto.jar

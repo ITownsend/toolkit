@@ -1,0 +1,2 @@
+#cracked a hash using this format PBKDF2-HMAC-SHA256
+hashcat -m 10900 'sha256:5000:u/+LBBOUnac=:YshQbDDqCAzy21EdK5OfZBJD1Ne4rXa1VgP5CzLd8Ps=' /usr/share/wordlists/rockyou.txt

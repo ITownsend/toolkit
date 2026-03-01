@@ -1,0 +1,3 @@
+#searches recursively through all files 
+#-i is case sensitive | -r is recursive | '/|' means OR 
+grep -ri "encrypt\|secret\|key" 

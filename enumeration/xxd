@@ -1,0 +1,2 @@
+#the awk just prints the ascii on the side
+xxd interpreter/passwords | awk '{print $NF}'

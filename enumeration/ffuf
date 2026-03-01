@@ -1,0 +1,11 @@
+#!bin/bash
+
+#Enumerating directories for websites
+ffuf -u https://<IP>/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt
+
+#Enumerating subdomains for websites
+ffuf -u https://<IP>/FUZZ -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+
+#Enumerating vhosts for ips
+ffuf -u https://<IP> -H "Host: FUZZ.<hostname>.HTB" -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+

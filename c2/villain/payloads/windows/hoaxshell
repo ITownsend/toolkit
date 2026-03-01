@@ -1,0 +1,3 @@
+cmd_curl_https.py                    powershell_iex_https.py                  powershell_outfile_https.py
+cmd_curl.py                          powershell_iex.py                        powershell_outfile.py
+powershell_iex_constr_lang_https.py  powershell_outfile_constr_lang_https.py  powershell_iex_constr_lang.py        powershell_outfile_constr_lang.py
